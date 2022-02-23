@@ -1,0 +1,21 @@
+{
+  "name": "Orgavnizer",
+  "description": "Helper shmelper",
+  "version": "1.0",
+  "manifest_version": 3,
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq7P8E2He5sBc3LjBLaDs4whoLFuhr9Q0RnSey3iwcSydMGxYP5hOAe0nnrOcHLdXgl3LnVexU4C8B/7J6jJ9A7lP9P6aVaumHOm6ntZbAi9QYuvSg0J93ZWWnd3dHydocLx7pf6LlwBpPH1xnl6/Pf0FAWvkz7u6DXyrI2yXe8RAy9hXwub4RHx5RqUBDvQkr7UsDzkOjgqCurEYNLdHdnEQzxRuVT4DtZQqc5tTpW4V28jBG9cs1o8T45T4YeUfIwlnI8l1bkJG9Kbsjgfo79vMCtKYSgjRC5iegwFWaB8XwUFjHvhYVFZtLQZ7YpzJodaWQ/tim34VSdneOAYvmQIDAQAB",
+  "oauth2": {
+    "client_id": "702330988071-2taj18bm53ibl5qoc2v6s7une4ftq2u9.apps.googleusercontent.com",
+    "scopes":["https://www.googleapis.com/auth/spreadsheets "]
+  },
+  "permissions": [
+    "identity"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Click Me",
+    "default_popup": "popup.html"
+  }
+}
